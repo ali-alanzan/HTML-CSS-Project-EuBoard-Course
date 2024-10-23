@@ -1,0 +1,50 @@
+
+*, html, body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main-header {
+    float: left;
+    width: 100%;
+    background-color: #6760F8;
+    padding: 10px 0;
+}
+
+.main-header .logo, .main-header .search-box, .main-header .profile {
+    float: left;
+    display: block;
+    width: 12.5%;
+}
+
+.main-header .logo {}
+
+.main-header .logo img {
+    margin: 0 20px;
+}
+
+.main-header .search-box {width: 75%;}
+
+.main-header .search-box .box {
+    float: left;
+    width: 70%;
+}
+
+.main-header .search-box .box input {
+    padding: 3px 20px;
+    border-radius: 4px;
+    border: none;
+    width: 100%;
+}
+.main-header .search-box .box i {
+    position: absolute;
+}
+
+.main-header .profile {
+
+}
+
+.main-header .profile button, .main-header .profile img, .main-header .profile div {
+    float: left;
+}
